@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+
+	<body>
+		<head>
+	<link rel="stylesheet" href="/assets/css/header.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<script type="text/javascript" src="/assets/js/hoverEffect.js"></script>
+</head>
+
+<header>
+	<nav>
+		<div id="logoPart">
+			<div class="navPoint" id="logo">
+				Logo
+			</div>
+		</div>
+		<div id="menuPart">
+			<div class="navPoint" id="home"     onMouseOver="navHoverOn(0)" onMouseOut="navHoverOff(0)">
+				Home
+			</div>
+			<div class="navPoint" id="projects" onMouseOver="navHoverOn(1)" onMouseOut="navHoverOff(1)">
+				Projects
+			</div>
+			<div class="navPoint" id="member"   onMouseOver="navHoverOn(2)" onMouseOut="navHoverOff(2)">
+				Member
+			</div>
+			<div class="navPoint" id="about"    onMouseOver="navHoverOn(3)" onMouseOut="navHoverOff(3)">
+				About
+			</div>
+		</div>
+	</nav>
+	<div id="hoverEffects">
+		<div>
+			<div class="hoverPoint" id="homeHover"></div>
+			<div class="hoverPoint" id="projectsHover"></div>
+			<div class="hoverPoint" id="memberHover"></div>
+			<div class="hoverPoint" id="aboutHover"></div>
+		</div>
+	</div>
+</header>
+
+		<head>
+	<link rel="stylesheet" href="/assets/css/newsSlideshow.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<script type="text/javascript" src="/assets/js/slide.js"></script>
+</head>
+
+<div id="newsSlideShowContainer">
+	<div id="slideshow-content">
+		
+			<div style="background-image: url('/assets/img/football.jpg')" class="slideshow-news"></div>
+		
+			<div style="background-image: url('/assets/img/football2.jpg')" class="slideshow-news"></div>
+		
+	</div>
+	<div id="newsSlideShow">
+		<div id="buttonContainer">
+			<div id="leftButton"  class="button" onClick="slideLeft()" ></div>
+			<div id="rightButton" class="button" onClick="slideRight()"></div>
+		</div>
+	</div>
+</div>
+<div style="height: 10000px;"></div>
+
+	</body>
+</html>

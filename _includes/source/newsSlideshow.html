@@ -1,0 +1,19 @@
+<head>
+	<link rel="stylesheet" href="/assets/css/newsSlideshow.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<script type="text/javascript" src="/assets/js/slide.js"></script>
+</head>
+
+<div id="newsSlideShowContainer">
+	<div id="slideshow-content">
+		{% for x in site.data.slideshowData %}
+			<div style="background-image: url('{{ x.url }}')" class="slideshow-news"></div>
+		{% endfor %}
+	</div>
+	<div id="newsSlideShow">
+		<div id="buttonContainer">
+			<div id="leftButton"  class="button" onClick="slideLeft()" ></div>
+			<div id="rightButton" class="button" onClick="slideRight()"></div>
+		</div>
+	</div>
+</div>
