@@ -1,14 +1,14 @@
-<head>
-	<link rel="stylesheet" href="/assets/css/newsSlideshow.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-	<script type="text/javascript" src="/assets/js/slide.js"></script>
-</head>
+<!--[Link to a post]({{ site.baseurl }}{% link posts/austria.md %})-->
+<link rel="stylesheet" href="/assets/css/newsSlideshow.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+<script type="text/javascript" src="/assets/js/slide.js"></script>
 
-<div id="newsSlideShowContainer">
+<div id="newsSlideShowContainer" onLoad="display()">
 	<div id="slideshow-content">
 		{% for x in site.data.slideshowData %}
 			<div style="background-image: url('{{ x.url }}')" class="slideshow-news"></div>
 		{% endfor %}
+		{{ "/posts" }}
 	</div>
 	<div id="newsSlideShow">
 		<div id="buttonContainer">
