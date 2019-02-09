@@ -6,4 +6,11 @@ layout: default
 
 {% include /source/newsSlideshow.html %}
 
-<div style="height: 10000px;"></div>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+<div style="height: 10000px;">
+    <a href="#"></a>
+</div>
