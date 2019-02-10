@@ -1,4 +1,7 @@
 ---
+title: "xxx"
+article: "Der neue Gewinner des Nao Fusßbals geht an sdfjsapodjf sdjfsdjfo isjadfoijsad oifjsidfj sdjfioj sdüfokj dkfjöklcxmlkamvolk ajfokasjdf oajsdflkjd slkönölkxydjvlök asjdfklö jasdfljaslökd fjlökasdjfl asjdfö lkasj"
+img: "https://chili.epfl.ch/wp-content/uploads/2018/08/IMG_9471.jpg"
 ---
 
 

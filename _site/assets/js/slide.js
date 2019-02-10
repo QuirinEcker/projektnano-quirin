@@ -35,12 +35,15 @@ function slideRight() {
 
 function display() {
 	let slideShowNews = document.getElementsByClassName("slideshow-news")
+	let slideShowNewsText = document.getElementsByClassName("slideshow-news-text");
 
 	for(let i = 0; i < slideShowNews.length; i++) {
 		if(i === status) {
 			slideShowNews[i].style.display = "block";
+			slideShowNewsText[i].style.display = "flex";
 		} else {
 			slideShowNews[i].style.display = "none";
+			slideShowNewsText[i].style.display = "none";
 		}
 	}
 }

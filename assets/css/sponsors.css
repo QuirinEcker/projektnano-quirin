@@ -1,0 +1,12 @@
+#sponsors {
+    height: 20vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsors img {
+    height: 10vh;
+}
