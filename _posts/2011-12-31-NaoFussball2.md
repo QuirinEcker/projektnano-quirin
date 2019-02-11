@@ -1,6 +1,6 @@
 ---
 title: "NAO Fußball"
-article: "I need healing"
+article: "Fabasoft ist toll"
 img: "https://chili.epfl.ch/wp-content/uploads/2018/08/IMG_9471.jpg"
 ---
 
